@@ -69,7 +69,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Md Pranta Ahamed</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Mern Stack In HTML/CSS and REACT-js.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>Freelancer providing services for programming and design content needs. Join me doen bellow and let's get cracking!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>Freelancer providing services for programming and design content needs. Join me doen bellow and {"let's"} get cracking!</p>
           </div>
           <div className='text-5xl flex flex-wrap justify-center gap-10 py-3 text-gray-600 dark:text-white'>
             <a className='saturate-10 hover:saturate-200' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/md-pranta-ahamed221/'><AiFillLinkedin /></a>
@@ -85,7 +85,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-4xl py-1 dark:text-white'>Services I Offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, I've done  <span className='text-teal-500'>remote work</span> for You.</p>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for You.</p>
           </div>
           <div className='lg:flex gap-10'>
               <Tilt>
@@ -134,7 +134,7 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-20 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
               <h3 className='text-4xl py-1 dark:text-white'>Portfolio</h3>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, I've done  <span className='text-teal-500'>remote work</span> for agencies consulted for <span className='text-teal-500'>startups</span> and collaboreted with talanted people to create <span className='text-teal-500'>digital products</span> for both business and consumer use. <br /> Freelancer providing services for <span className='text-teal-500'>programming</span> and design content needs. <span className='text-teal-500'>Join</span> me doen bellow and let's get cracking!</p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for agencies consulted for <span className='text-teal-500'>startups</span> and collaboreted with talanted people to create <span className='text-teal-500'>digital products</span> for both business and consumer use. <br /> Freelancer providing services for <span className='text-teal-500'>programming</span> and design content needs. <span className='text-teal-500'>Join</span> me doen bellow and {"let's"} get cracking!</p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including brand programming and teaching.</p>
             </div>
             <div className='basis-1/3 flex-1'>
@@ -207,7 +207,7 @@ export default function Home() {
                       relative z-10">
                     <div className="isolate bg-white py-16 sm:py-5">
                         <div className="mx-auto max-w-2xl text-center">
-                          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Let's Talk With Me For Any Project!</h2>
+                          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{"Let's"} Talk With Me For Any Project!</h2>
                         </div>
                         <form ref={form} onSubmit={sendEmail} action="#" method="POST" className="mx-auto mt-10 max-w-xl sm:mt-10">
                           <div className="grid grid-cols-1 gap-y-6 gap-x-5 sm:grid-cols-2">
@@ -237,7 +237,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="mt-10">
-                            <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
+                            <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">{"Let's"} talk</button>
                           </div>
                         </form>
                       </div>

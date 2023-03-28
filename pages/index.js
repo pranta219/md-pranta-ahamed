@@ -69,7 +69,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Md Pranta Ahamed</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Mern Stack In HTML/CSS and REACT-js.</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>Freelancer providing services for programming and design content needs. Join me doen bellow and {"let's"} get cracking!</p>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white'>Freelancer providing services for programming and design content needs. Join me down bellow and {"let's"} get cracking!</p>
           </div>
           <div className='text-5xl flex flex-wrap justify-center gap-10 py-3 text-gray-600 dark:text-white'>
             <a className='saturate-10 hover:saturate-200' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/md-pranta-ahamed221/'><AiFillLinkedin /></a>
@@ -106,12 +106,12 @@ export default function Home() {
                     <Image src={desing} width={100} height={100} />
                     <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
                     <p className='py-2'>
-                      Creating elegant design suitedfor your needs design theory.
+                      Creating elegant design suited for your needs design theory.
                     </p>
                     <h4 className='py-4 text-teal-600'>Degin tools I use</h4>
+                    <p className='text-grey-800 py-1'>Figma</p>
                     <p className='text-grey-800 py-1'>PhotoShop</p>
                     <p className='text-grey-800 py-1'>Illustrator</p>
-                    <p className='text-grey-800 py-1'>Figma</p>
                   </div>
               </Tilt>
               <Tilt>
@@ -134,7 +134,7 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-20 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
               <h3 className='text-4xl py-1 dark:text-white'>Portfolio</h3>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for agencies consulted for <span className='text-teal-500'>startups</span> and collaboreted with talanted people to create <span className='text-teal-500'>digital products</span> for both business and consumer use. <br /> Freelancer providing services for <span className='text-teal-500'>programming</span> and design content needs. <span className='text-teal-500'>Join</span> me doen bellow and {"let's"} get cracking!</p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for agencies consulted for <span className='text-teal-500'>startups</span> and collaboreted with talanted people to create <span className='text-teal-500'>digital products</span> for both business and consumer use. Freelancer providing services for <span className='text-teal-500'>programming</span> and design content needs. <span className='text-teal-500'>Join</span> me doen bellow and {"let's"} get cracking!</p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including brand programming and teaching.</p>
             </div>
             <div className='basis-1/3 flex-1'>
@@ -212,7 +212,7 @@ export default function Home() {
                         <form ref={form} onSubmit={sendEmail} action="#" method="POST" className="mx-auto mt-10 max-w-xl sm:mt-10">
                           <div className="grid grid-cols-1 gap-y-6 gap-x-5 sm:grid-cols-2">
                             <div className="sm:col-span-2">
-                              <label className="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+                              <label className="block text-sm font-semibold leading-6 text-gray-900">Full Name</label>
                               <div className="mt-2.5">
                                 <input type="text" name="user_name" id="first-name" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                               </div>

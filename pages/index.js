@@ -17,6 +17,9 @@ import web3 from '../public/web3.png'
 import web4 from '../public/web4.png'
 import web5 from '../public/web5.png'
 import web6 from '../public/web6.png'
+import web7 from '../public/web7.png'
+import web8 from '../public/web8.png'
+import web9 from '../public/web9.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -162,6 +165,18 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://template.wphix.com/finbest-prv/finbest/"> 
+                <Image src={web7} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+              </div>
+              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://oclata.com/html/futurenet/"> 
+                <Image src={web8} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+              </div>
+              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://creationic.com/html/realnest/"> 
+                <Image src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+              </div>
+              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://weblearnbd.net/tphtml/cetalog/index.html"> 
                 <Image src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
               </div>
@@ -205,7 +220,7 @@ export default function Home() {
                 <div className="w-full mt-20 mr-0 mb-0 ml-0 relative z-10 max-w-2xl lg:mt-0 xl:w-6/12">
                   <div className="flex flex-col items-start justify-start pt-10 pr-10 pb-10 pl-10 bg-white shadow-2xl rounded-xl
                       relative z-10">
-                    <div className="isolate bg-white py-16 sm:py-5">
+                    <div className="isolate bg-white">
                         <div className="mx-auto max-w-2xl text-center">
                           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{"Let's"} Talk With Me For Any Project!</h2>
                         </div>

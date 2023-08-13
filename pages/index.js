@@ -20,6 +20,7 @@ import web6 from '../public/web6.png'
 import web7 from '../public/web7.png'
 import web8 from '../public/web8.png'
 import web9 from '../public/web9.png'
+import web10 from '../public/web10.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -173,6 +174,10 @@ export default function Home() {
                 <Image src={web8} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
               </div>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://template.wphix.com/dhora-prv/dhora/index.html">
+                <Image src={web10} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+              </div>
+              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://creationic.com/html/realnest/"> 
                 <Image src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
               </div>
@@ -247,7 +252,7 @@ export default function Home() {
                             <div className="sm:col-span-2">
                               <label className="block text-sm font-semibold leading-6 text-gray-900">Message</label>
                               <div className="mt-2.5">
-                                <textarea name="message" id="message" rows="4" className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                                <textarea name="message" id="message" rows="4" className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6 resize-none"></textarea>
                               </div>
                             </div>
                           </div>

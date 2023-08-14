@@ -182,21 +182,21 @@ export default function Home() {
                 <Image src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
               </div>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-              <a target="_blank" rel="noreferrer" href="https://weblearnbd.net/tphtml/cetalog/index.html"> 
+              <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/cetalog-prv/cetalog/index.html"> 
                 <Image src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
               </div>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://weblearnbd.net/tphtml/kleaso/index.html">
+                <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/kleaso-prv/kleaso/index.html">
                 <Image src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
                 </a>
               </div>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://weblearnbd.net/tphtml/technix/index.html">
+                <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/technix-prv/technix/index.html">
                 <Image src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
                 </a>
               </div>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://weblearnbd.net/tphtml/donafund/"><Image src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/donafund/index.html"><Image src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
               </div>
               <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
                 <a target="_blank" rel="noreferrer" href="https://dulcet-truffle-dc9870.netlify.app/">
@@ -218,7 +218,7 @@ export default function Home() {
               <div className="flex flex-col items-center w-full pt-5 pb-20 xl:flex-row">
                 <div className="w-full bg-cover relative max-w-md lg:pb-10 lg:max-w-2xl lg:w-7/12">
                   <div className="flex flex-col items-center justify-center w-full h-full relative lg:pr-10">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/authentication/illustration.svg" className="btn-"/>
+                    {/* <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/authentication/illustration.svg" className="btn-"/> */}
                   </div>
                 </div>
 

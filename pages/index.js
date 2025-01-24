@@ -38,11 +38,11 @@ export default function Home() {
 
     emailjs.sendForm('service_h9z9x2p', 'template_g6n89or', form.current, 'oXGlF_xXtkvlFjbLw')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
-      e.target.reset()
+    e.target.reset()
   };
 
   return (
@@ -92,45 +92,45 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for You.</p>
           </div>
           <div className='lg:flex gap-10'>
-              <Tilt>
-                <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
-                  <Image src={code} width={100} height={100} />
-                  <h3 className='text-lg font-medium pt-8 pb-2'>Codeing</h3>
-                  <p className='py-2'>
-                    Creating elegant design suitedfor your needs design theory.
-                  </p>
-                  <h4 className='py-4 text-teal-600'>Development tools I use</h4>
-                  <p className='text-grey-800 py-1'>Html/Css</p>
-                  <p className='text-grey-800 py-1'>Javascript</p>
-                  <p className='text-grey-800 py-1'>Sass</p>
-                </div>
-              </Tilt>
-              <Tilt>
-                  <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
-                    <Image src={desing} width={100} height={100} />
-                    <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-                    <p className='py-2'>
-                      Creating elegant design suited for your needs design theory.
-                    </p>
-                    <h4 className='py-4 text-teal-600'>Degin tools I use</h4>
-                    <p className='text-grey-800 py-1'>Figma</p>
-                    <p className='text-grey-800 py-1'>PhotoShop</p>
-                    <p className='text-grey-800 py-1'>Illustrator</p>
-                  </div>
-              </Tilt>
-              <Tilt>
-                <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
-                  <Image src={consulting} width={100} height={100} />
-                  <h3 className='text-lg font-medium pt-8 pb-2'>Somthing Else</h3>
-                  <p className='py-2'>
-                    Creating elegant design suitedfor your needs design theory.
-                  </p>
-                  <h4 className='py-4 text-teal-600'>Others tools I use</h4>
-                  <p className='text-grey-800 py-1'>React</p>
-                  <p className='text-grey-800 py-1'>Firebase</p>
-                  <p className='text-grey-800 py-1'>MongoDb</p>
-                </div>
-              </Tilt>
+            <Tilt>
+              <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
+                <Image src={code} width={100} height={100} />
+                <h3 className='text-lg font-medium pt-8 pb-2'>Codeing</h3>
+                <p className='py-2'>
+                  Creating elegant design suitedfor your needs design theory.
+                </p>
+                <h4 className='py-4 text-teal-600'>Development tools I use</h4>
+                <p className='text-grey-800 py-1'>Html/Css</p>
+                <p className='text-grey-800 py-1'>Javascript</p>
+                <p className='text-grey-800 py-1'>Sass</p>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
+                <Image src={desing} width={100} height={100} />
+                <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+                <p className='py-2'>
+                  Creating elegant design suited for your needs design theory.
+                </p>
+                <h4 className='py-4 text-teal-600'>Degin tools I use</h4>
+                <p className='text-grey-800 py-1'>Figma</p>
+                <p className='text-grey-800 py-1'>PhotoShop</p>
+                <p className='text-grey-800 py-1'>Illustrator</p>
+              </div>
+            </Tilt>
+            <Tilt>
+              <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
+                <Image src={consulting} width={100} height={100} />
+                <h3 className='text-lg font-medium pt-8 pb-2'>Somthing Else</h3>
+                <p className='py-2'>
+                  Creating elegant design suitedfor your needs design theory.
+                </p>
+                <h4 className='py-4 text-teal-600'>Others tools I use</h4>
+                <p className='text-grey-800 py-1'>React</p>
+                <p className='text-grey-800 py-1'>Firebase</p>
+                <p className='text-grey-800 py-1'>MongoDb</p>
+              </div>
+            </Tilt>
           </div>
         </section>
 
@@ -160,55 +160,58 @@ export default function Home() {
                     <p className="pb-1">Last login: Fri March 20 09:11:04 on ttys002</p>
                     <p className="pb-1">Pranta:Devprojects Javascript$</p>
                   </div>
-                </div> 
+                </div>
               </div>
             </div>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-              <a target="_blank" rel="noreferrer" href="https://template.wphix.com/finbest-prv/finbest/"> 
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://html.storebuild.shop/finbest-prv/index.html">
                 <Image src={web7} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-              <a target="_blank" rel="noreferrer" href="https://oclata.com/html/futurenet/"> 
-                <Image src={web8} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://framerfly.mobi/oclata/html/futurenet/index.html">
+                <Image src={web8} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                </a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://template.wphix.com/dhora-prv/dhora/index.html">
                 <Image src={web10} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-              <a target="_blank" rel="noreferrer" href="https://creationic.com/html/realnest/"> 
-                <Image src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-              <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/cetalog-prv/cetalog/index.html"> 
-                <Image src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/kleaso-prv/kleaso/index.html">
-                <Image src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
-                </a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/technix-prv/technix/index.html">
-                <Image src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
-                </a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/donafund/index.html"><Image src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://dulcet-truffle-dc9870.netlify.app/">
-                  <Image src={web5} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
-                </a>
-              </div>
-              <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-                <a target="_blank" rel="noreferrer" href="https://bicycle-parts-83ec4.web.app/">
-                  <Image src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
-                </a>
-              </div>
             </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://creationic.com/html/realnest/">
+                <Image src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                </a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/cetalog-prv/cetalog/index.html">
+                <Image src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                </a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/kleaso-prv/kleaso/index.html">
+                <Image src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+              </a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/technix-prv/technix/index.html">
+                <Image src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+              </a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://html.weblearnbd.net/donafund/index.html"><Image src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://dulcet-truffle-dc9870.netlify.app/">
+                <Image src={web5} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+              </a>
+            </div>
+            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" href="https://bicycle-parts-83ec4.web.app/">
+                <Image src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+              </a>
+            </div>
+          </div>
         </section>
 
         <section className='py-20'>
@@ -218,7 +221,7 @@ export default function Home() {
               <div className="flex flex-col items-center w-full pt-5 pb-20 xl:flex-row">
                 <div className="w-full bg-cover relative max-w-md lg:pb-10 lg:max-w-2xl lg:w-7/12">
                   <div className="flex flex-col items-center justify-center w-full h-full relative lg:pr-10">
-                    {/* <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/authentication/illustration.svg" className="btn-"/> */}
+                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/authentication/illustration.svg" className="btn-" />
                   </div>
                 </div>
 
@@ -226,107 +229,48 @@ export default function Home() {
                   <div className="flex flex-col items-start justify-start pt-10 pr-10 pb-10 pl-10 bg-white shadow-2xl rounded-xl
                       relative z-10">
                     <div className="isolate bg-white">
-                        <div className="mx-auto max-w-2xl text-center">
-                          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{"Let's"} Talk With Me For Any Project!</h2>
-                        </div>
-                        <form ref={form} onSubmit={sendEmail} action="#" method="POST" className="mx-auto mt-10 max-w-xl sm:mt-10">
-                          <div className="grid grid-cols-1 gap-y-6 gap-x-5 sm:grid-cols-2">
-                            <div className="sm:col-span-2">
-                              <label className="block text-sm font-semibold leading-6 text-gray-900">Full Name</label>
-                              <div className="mt-2.5">
-                                <input type="text" name="user_name" id="first-name" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                              </div>
-                            </div>
-                            <div className="sm:col-span-2">
-                              <label className="block text-sm font-semibold leading-6 text-gray-900">Company</label>
-                              <div className="mt-2.5">
-                                <input type="text" name="company" id="company" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                              </div>
-                            </div>
-                            <div className="sm:col-span-2">
-                              <label className="block text-sm font-semibold leading-6 text-gray-900">Email</label>
-                              <div className="mt-2.5">
-                                <input type="email" name="user_email" id="email" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6" />
-                              </div>
-                            </div>
-                            <div className="sm:col-span-2">
-                              <label className="block text-sm font-semibold leading-6 text-gray-900">Message</label>
-                              <div className="mt-2.5">
-                                <textarea name="message" id="message" rows="4" className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6 resize-none"></textarea>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="mt-10">
-                            <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">{"Let's"} talk</button>
-                          </div>
-                        </form>
+                      <div className="mx-auto max-w-2xl text-center">
+                        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{"Let's"} Talk With Me For Any Project!</h2>
                       </div>
+                      <form ref={form} onSubmit={sendEmail} action="#" method="POST" className="mx-auto mt-10 max-w-xl sm:mt-10">
+                        <div className="grid grid-cols-1 gap-y-6 gap-x-5 sm:grid-cols-2">
+                          <div className="sm:col-span-2">
+                            <label className="block text-sm font-semibold leading-6 text-gray-900">Full Name</label>
+                            <div className="mt-2.5">
+                              <input type="text" name="user_name" id="first-name" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                            </div>
+                          </div>
+                          <div className="sm:col-span-2">
+                            <label className="block text-sm font-semibold leading-6 text-gray-900">Company</label>
+                            <div className="mt-2.5">
+                              <input type="text" name="company" id="company" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                            </div>
+                          </div>
+                          <div className="sm:col-span-2">
+                            <label className="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                            <div className="mt-2.5">
+                              <input type="email" name="user_email" id="email" required className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                            </div>
+                          </div>
+                          <div className="sm:col-span-2">
+                            <label className="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+                            <div className="mt-2.5">
+                              <textarea name="message" id="message" rows="4" className="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-indigo-600 sm:text-sm sm:leading-6 resize-none"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="mt-10">
+                          <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">{"Let's"} talk</button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
-                  <svg className="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-yellow-300
-                      fill-current"><g stroke="none" ><g ><g><g><circle
-                      cx="3.261" cy="3.445" r="2.72"/><circle cx="15.296" cy="3.445" r="2.719"/><circle cx="27.333" cy="3.445"
-                      r="2.72"/><circle cx="39.369" cy="3.445" r="2.72"/><circle cx="51.405" cy="3.445" r="2.72"/><circle cx="63.441"
-                      cy="3.445" r="2.72"/><circle cx="75.479" cy="3.445" r="2.72"/><circle cx="87.514" cy="3.445" r="2.719"/></g><g
-                      transform="translate(0 12)"><circle cx="3.261" cy="3.525" r="2.72"/><circle cx="15.296" cy="3.525"
-                      r="2.719"/><circle cx="27.333" cy="3.525" r="2.72"/><circle cx="39.369" cy="3.525" r="2.72"/><circle
-                      cx="51.405" cy="3.525" r="2.72"/><circle cx="63.441" cy="3.525" r="2.72"/><circle cx="75.479" cy="3.525"
-                      r="2.72"/><circle cx="87.514" cy="3.525" r="2.719"/></g><g transform="translate(0 24)"><circle cx="3.261"
-                      cy="3.605" r="2.72"/><circle cx="15.296" cy="3.605" r="2.719"/><circle cx="27.333" cy="3.605" r="2.72"/><circle
-                      cx="39.369" cy="3.605" r="2.72"/><circle cx="51.405" cy="3.605" r="2.72"/><circle cx="63.441" cy="3.605"
-                      r="2.72"/><circle cx="75.479" cy="3.605" r="2.72"/><circle cx="87.514" cy="3.605" r="2.719"/></g><g
-                      transform="translate(0 36)"><circle cx="3.261" cy="3.686" r="2.72"/><circle cx="15.296" cy="3.686"
-                      r="2.719"/><circle cx="27.333" cy="3.686" r="2.72"/><circle cx="39.369" cy="3.686" r="2.72"/><circle
-                      cx="51.405" cy="3.686" r="2.72"/><circle cx="63.441" cy="3.686" r="2.72"/><circle cx="75.479" cy="3.686"
-                      r="2.72"/><circle cx="87.514" cy="3.686" r="2.719"/></g><g transform="translate(0 49)"><circle cx="3.261"
-                      cy="2.767" r="2.72"/><circle cx="15.296" cy="2.767" r="2.719"/><circle cx="27.333" cy="2.767" r="2.72"/><circle
-                      cx="39.369" cy="2.767" r="2.72"/><circle cx="51.405" cy="2.767" r="2.72"/><circle cx="63.441" cy="2.767"
-                      r="2.72"/><circle cx="75.479" cy="2.767" r="2.72"/><circle cx="87.514" cy="2.767" r="2.719"/></g><g
-                      transform="translate(0 61)"><circle cx="3.261" cy="2.846" r="2.72"/><circle cx="15.296" cy="2.846"
-                      r="2.719"/><circle cx="27.333" cy="2.846" r="2.72"/><circle cx="39.369" cy="2.846" r="2.72"/><circle
-                      cx="51.405" cy="2.846" r="2.72"/><circle cx="63.441" cy="2.846" r="2.72"/><circle cx="75.479" cy="2.846"
-                      r="2.72"/><circle cx="87.514" cy="2.846" r="2.719"/></g><g transform="translate(0 73)"><circle cx="3.261"
-                      cy="2.926" r="2.72"/><circle cx="15.296" cy="2.926" r="2.719"/><circle cx="27.333" cy="2.926" r="2.72"/><circle
-                      cx="39.369" cy="2.926" r="2.72"/><circle cx="51.405" cy="2.926" r="2.72"/><circle cx="63.441" cy="2.926"
-                      r="2.72"/><circle cx="75.479" cy="2.926" r="2.72"/><circle cx="87.514" cy="2.926" r="2.719"/></g><g
-                      transform="translate(0 85)"><circle cx="3.261" cy="3.006" r="2.72"/><circle cx="15.296" cy="3.006"
-                      r="2.719"/><circle cx="27.333" cy="3.006" r="2.72"/><circle cx="39.369" cy="3.006" r="2.72"/><circle
-                      cx="51.405" cy="3.006" r="2.72"/><circle cx="63.441" cy="3.006" r="2.72"/><circle cx="75.479" cy="3.006"
-                      r="2.72"/><circle cx="87.514" cy="3.006" r="2.719"/></g></g></g></g></svg>
-                  <svg className="absolute bottom-0 right-0 z-0 w-32 h-32 -mb-12 -mr-12 text-indigo-500
-                      fill-current"><g stroke="none" ><g ><g><g><circle
-                      cx="3.261" cy="3.445" r="2.72"/><circle cx="15.296" cy="3.445" r="2.719"/><circle cx="27.333" cy="3.445"
-                      r="2.72"/><circle cx="39.369" cy="3.445" r="2.72"/><circle cx="51.405" cy="3.445" r="2.72"/><circle cx="63.441"
-                      cy="3.445" r="2.72"/><circle cx="75.479" cy="3.445" r="2.72"/><circle cx="87.514" cy="3.445" r="2.719"/></g><g
-                      transform="translate(0 12)"><circle cx="3.261" cy="3.525" r="2.72"/><circle cx="15.296" cy="3.525"
-                      r="2.719"/><circle cx="27.333" cy="3.525" r="2.72"/><circle cx="39.369" cy="3.525" r="2.72"/><circle
-                      cx="51.405" cy="3.525" r="2.72"/><circle cx="63.441" cy="3.525" r="2.72"/><circle cx="75.479" cy="3.525"
-                      r="2.72"/><circle cx="87.514" cy="3.525" r="2.719"/></g><g transform="translate(0 24)"><circle cx="3.261"
-                      cy="3.605" r="2.72"/><circle cx="15.296" cy="3.605" r="2.719"/><circle cx="27.333" cy="3.605" r="2.72"/><circle
-                      cx="39.369" cy="3.605" r="2.72"/><circle cx="51.405" cy="3.605" r="2.72"/><circle cx="63.441" cy="3.605"
-                      r="2.72"/><circle cx="75.479" cy="3.605" r="2.72"/><circle cx="87.514" cy="3.605" r="2.719"/></g><g
-                      transform="translate(0 36)"><circle cx="3.261" cy="3.686" r="2.72"/><circle cx="15.296" cy="3.686"
-                      r="2.719"/><circle cx="27.333" cy="3.686" r="2.72"/><circle cx="39.369" cy="3.686" r="2.72"/><circle
-                      cx="51.405" cy="3.686" r="2.72"/><circle cx="63.441" cy="3.686" r="2.72"/><circle cx="75.479" cy="3.686"
-                      r="2.72"/><circle cx="87.514" cy="3.686" r="2.719"/></g><g transform="translate(0 49)"><circle cx="3.261"
-                      cy="2.767" r="2.72"/><circle cx="15.296" cy="2.767" r="2.719"/><circle cx="27.333" cy="2.767" r="2.72"/><circle
-                      cx="39.369" cy="2.767" r="2.72"/><circle cx="51.405" cy="2.767" r="2.72"/><circle cx="63.441" cy="2.767"
-                      r="2.72"/><circle cx="75.479" cy="2.767" r="2.72"/><circle cx="87.514" cy="2.767" r="2.719"/></g><g
-                      transform="translate(0 61)"><circle cx="3.261" cy="2.846" r="2.72"/><circle cx="15.296" cy="2.846"
-                      r="2.719"/><circle cx="27.333" cy="2.846" r="2.72"/><circle cx="39.369" cy="2.846" r="2.72"/><circle
-                      cx="51.405" cy="2.846" r="2.72"/><circle cx="63.441" cy="2.846" r="2.72"/><circle cx="75.479" cy="2.846"
-                      r="2.72"/><circle cx="87.514" cy="2.846" r="2.719"/></g><g transform="translate(0 73)"><circle cx="3.261"
-                      cy="2.926" r="2.72"/><circle cx="15.296" cy="2.926" r="2.719"/><circle cx="27.333" cy="2.926" r="2.72"/><circle
-                      cx="39.369" cy="2.926" r="2.72"/><circle cx="51.405" cy="2.926" r="2.72"/><circle cx="63.441" cy="2.926"
-                      r="2.72"/><circle cx="75.479" cy="2.926" r="2.72"/><circle cx="87.514" cy="2.926" r="2.719"/></g><g
-                      transform="translate(0 85)"><circle cx="3.261" cy="3.006" r="2.72"/><circle cx="15.296" cy="3.006"
-                      r="2.719"/><circle cx="27.333" cy="3.006" r="2.72"/><circle cx="39.369" cy="3.006" r="2.72"/><circle
-                      cx="51.405" cy="3.006" r="2.72"/><circle cx="63.441" cy="3.006" r="2.72"/><circle cx="75.479" cy="3.006"
-                      r="2.72"/><circle cx="87.514" cy="3.006" r="2.719"/></g></g></g></g></svg>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
       </main>
     </div>
   )

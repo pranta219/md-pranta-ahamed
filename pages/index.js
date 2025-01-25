@@ -31,9 +31,9 @@ import web15 from '../public/web15.png'
 import web16 from '../public/web16.png'
 import { useState } from 'react';
 import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import React from "react";
 import Tilt from 'react-parallax-tilt';
+import React from "react";
+import emailjs from '@emailjs/browser';
 
 
 export default function Home() {

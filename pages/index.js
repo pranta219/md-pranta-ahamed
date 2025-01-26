@@ -87,7 +87,7 @@ export default function Home() {
               <a className='saturate-10 hover:saturate-800' target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/md-pranta-ahamed221/'><AiFillLinkedin /></a>
               <a className='saturate-10 hover:saturate-800' target="_blank" rel="noreferrer" href='https://github.com/pranta219'><AiFillGithub /></a>
               <a className='saturate-10 hover:saturate-800' target="_blank" rel="noreferrer" href='https://x.com/MdPranta5'><AiFillTwitterCircle /></a>
-              <a className='saturate-10 hover:saturate-800' target="_blank" rel="noreferrer" href='https://www.instagram.com/md_pranta_ahamed/'><AiFillInstagram /></a>
+              <a className='saturate-10 hover:saturate-800' target="_blank" rel="noreferrer" href='https://www.instagram.com/my_self_pranta/'><AiFillInstagram /></a>
               <a className='saturate-10 hover:saturate-800' target="_blank" rel="noreferrer" href='https://www.facebook.com/md.pranta1243/'><AiFillFacebook /></a>
           </div>
           <div className='ralative bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 mb-20 mx-auto overflow-hidden md:h-96 md:w-96'>
@@ -102,7 +102,7 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10'>
             <Tilt>
-              <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
+              <div style={{ height: '500px' }} className='shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
                 <Image alt='img'src={code} width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Codeing</h3>
                 <p className='py-2'>
@@ -115,7 +115,7 @@ export default function Home() {
               </div>
             </Tilt>
             <Tilt>
-              <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
+              <div style={{ height: '500px' }} className='shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
                 <Image alt='img'src={desing} width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
                 <p className='py-2'>
@@ -127,7 +127,7 @@ export default function Home() {
               </div>
             </Tilt>
             <Tilt>
-              <div style={{ height: '500px' }} className='text-center shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
+              <div style={{ height: '500px' }} className='shadow-lg p-10 rounded-xl my-10 mx-auto dark:bg-white'>
                 <Image alt='img'src={consulting} width={100} height={100} />
                 <h3 className='text-lg font-medium pt-8 pb-2'>Somthing Else</h3>
                 <p className='py-2'>
@@ -171,77 +171,78 @@ export default function Home() {
               </div>
             </div>
           </div>
+
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
-              <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/acadia-university-online-course-html5-template/52956190?s_rank=15">
-                <Image alt='img'src={web16} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" height={"100%"} href="https://themeforest.net/item/acadia-university-online-course-html5-template/52956190?s_rank=15">
+                <Image alt='img' src={web16} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/solub-solar-and-renewable-energy-html-template/55016394?s_rank=1">
-                <Image alt='img'src={web14} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <Image alt='img' src={web14} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div> 
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/ishpat-construction-html-template/50120624?s_rank=33">
                 <Image alt='img'src={web13} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div> 
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/bhumi-real-estate-html5-template/53930818?s_rank=4">
-                <Image alt='img'src={web12} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <Image alt='img' src={web12} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div> 
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/visaho-immigration-and-visa-consulting-html-template/48073445?s_rank=34">
-                <Image alt='img'src={web11} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <Image alt='img' src={web11} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/meduca-medical-health-html-template/54710838?s_rank=2">
-                <Image alt='img'src={web15} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <Image alt='img' src={web15} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/finbest-banking-and-finance-html-template/46682487">
-                <Image alt='img'src={web7} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <Image alt='img' src={web7} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/futurenet-technology-it-solutions-html-template/45607497">
-                <Image alt='img'src={web8} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web8} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
                 </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/dhora-movie-production-film-studio-html-template/47272701">
-                <Image alt='img'src={web10} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+                <Image alt='img' src={web10} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/realnest-real-estate-html-template/46085422">
-                <Image alt='img'src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web9} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
                 </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/cetalog-marketing-seo-agency-html-template/42864907">
-                <Image alt='img'src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web2} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
                 </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/kleaso-cleaning-services-html5-template/43766025">
-                <Image alt='img'src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
               </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/technix-technology-it-solutions-html-template/44871472">
-                <Image alt='img'src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
               </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://themeforest.net/item/donafund-fundraising-charity-html-template/42488004">
-                <Image alt='img'src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web1} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
                 </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://dulcet-truffle-dc9870.netlify.app/">
-                <Image alt='img'src={web5} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web5} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
               </a>
             </div>
-            <div className='basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" href="https://bicycle-parts-83ec4.web.app/">
-                <Image alt='img'src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+                <Image alt='img' src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
               </a>
             </div>
           </div>

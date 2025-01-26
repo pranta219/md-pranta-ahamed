@@ -20,3 +20,7 @@ a {
   font-family: "burtons";
   src: url(../public/Burtons.otf);
  }
+
+ .portfolio-item img{
+  height: 100% !important;
+ }

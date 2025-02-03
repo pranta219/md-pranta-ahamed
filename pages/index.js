@@ -29,6 +29,7 @@ import web13 from '../public/web13.png'
 import web14 from '../public/web14.png'
 import web15 from '../public/web15.png'
 import web16 from '../public/web16.png'
+import web17 from '../public/web17.png'
 import { useState } from 'react';
 import { useRef } from 'react';
 import Tilt from 'react-parallax-tilt';
@@ -146,7 +147,7 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-20 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
               <h3 className='text-5xl py-1 dark:text-white'>Portfolio</h3>
-              <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for agencies consulted for <span className='text-teal-500'>startups</span> and collaboreted with talanted people to create <span className='text-teal-500'>digital products</span> for both business and consumer use. Freelancer providing services for <span className='text-teal-500'>programming</span> and design content needs. <span className='text-teal-500'>Join</span> me doen bellow and {"let's"} get cracking!</p>
+              <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of <span className='text-teal-500'>my journey</span> as a freel developer, {"I've"} done  <span className='text-teal-500'>remote work</span> for agencies consulted for <span className='text-teal-500'>startups</span> and collaboreted with talanted people to create <span className='text-teal-500'>digital products</span> for both business and consumer use. Freelancer providing services for <span className='text-teal-500'>programming</span> and design content needs. <span className='text-teal-500'>Join</span> me down bellow and {"let's"} get cracking!</p>
             </div>
             <div className='basis-1/3 flex-1'>
               <div className=" mx-auto">
@@ -173,6 +174,10 @@ export default function Home() {
           </div>
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
+              <a target="_blank" rel="noreferrer" height={"100%"} href="https://themeforest.net/item/nixer-creative-agency-portfolio-html-template/56414718">
+                <Image alt='img' src={web17} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
+            </div>
             <div className='portfolio-item basis-1/3 flex-1 relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0'>
               <a target="_blank" rel="noreferrer" height={"100%"} href="https://themeforest.net/item/acadia-university-online-course-html5-template/52956190?s_rank=15">
                 <Image alt='img' src={web16} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' /></a>
@@ -292,7 +297,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="mt-10">
-                          <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">{"Let's"} talk</button>
+                          <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 cursor-pointer">{"Let's"} talk</button>
                         </div>
                       </form>
                     </div>
